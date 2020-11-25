@@ -107,10 +107,10 @@ namespace LZ_EasyThreeLayersFrameworkCodeGenerateImplement
                     //打开连接
                     sqlConnection.Open();
                 }
-                catch
+                catch(Exception ex)
                 {
                     //弹出错误信息
-                    Tool.ShowMistakeMessage("连接服务器或获取数据信息失败！\r\n1.请检查服务器地址或用户名密码是否正确！\r\n2.请确保是SQL Server正式版，而非SQLEXPRESS版！\r\n3.如果连接失败，服务器名可以尝试用“机器名”代替IP，或者“(local)”或是“.”试一下！");
+                    Tool.ShowMistakeMessage(ex.ToString());
                     //退出方法
                     return;
                 }
