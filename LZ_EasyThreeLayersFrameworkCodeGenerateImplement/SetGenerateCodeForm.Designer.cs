@@ -405,7 +405,7 @@
             this.groupBox5.Controls.Add(this.groupBox7);
             this.groupBox5.Location = new System.Drawing.Point(15, 519);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(786, 200);
+            this.groupBox5.Size = new System.Drawing.Size(786, 125);
             this.groupBox5.TabIndex = 3;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "生成代码功能设定";
@@ -417,7 +417,7 @@
             this.groupBox8.Controls.Add(this.lvLineNote);
             this.groupBox8.Location = new System.Drawing.Point(392, 19);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(388, 175);
+            this.groupBox8.Size = new System.Drawing.Size(388, 100);
             this.groupBox8.TabIndex = 3;
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "设置表的列注释（双击修改注释）";
@@ -434,7 +434,7 @@
             this.lvLineNote.HideSelection = false;
             this.lvLineNote.Location = new System.Drawing.Point(3, 24);
             this.lvLineNote.Name = "lvLineNote";
-            this.lvLineNote.Size = new System.Drawing.Size(382, 148);
+            this.lvLineNote.Size = new System.Drawing.Size(382, 73);
             this.lvLineNote.TabIndex = 0;
             this.lvLineNote.UseCompatibleStateImageBehavior = false;
             this.lvLineNote.View = System.Windows.Forms.View.Details;
@@ -460,7 +460,7 @@
             this.groupBox7.Controls.Add(this.lvTableNote);
             this.groupBox7.Location = new System.Drawing.Point(8, 19);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(378, 175);
+            this.groupBox7.Size = new System.Drawing.Size(378, 100);
             this.groupBox7.TabIndex = 2;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "设置表注释（双击修改注释）";
@@ -477,7 +477,7 @@
             this.lvTableNote.HideSelection = false;
             this.lvTableNote.Location = new System.Drawing.Point(3, 24);
             this.lvTableNote.Name = "lvTableNote";
-            this.lvTableNote.Size = new System.Drawing.Size(372, 148);
+            this.lvTableNote.Size = new System.Drawing.Size(372, 73);
             this.lvTableNote.TabIndex = 1;
             this.lvTableNote.UseCompatibleStateImageBehavior = false;
             this.lvTableNote.View = System.Windows.Forms.View.Details;
@@ -499,7 +499,7 @@
             // 
             this.pbSchedule.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pbSchedule.Location = new System.Drawing.Point(13, 793);
+            this.pbSchedule.Location = new System.Drawing.Point(13, 718);
             this.pbSchedule.Name = "pbSchedule";
             this.pbSchedule.Size = new System.Drawing.Size(614, 23);
             this.pbSchedule.TabIndex = 4;
@@ -511,7 +511,7 @@
             this.groupBox6.Controls.Add(this.buttSelectSavePath);
             this.groupBox6.Controls.Add(this.txtSavePath);
             this.groupBox6.Controls.Add(this.label11);
-            this.groupBox6.Location = new System.Drawing.Point(15, 725);
+            this.groupBox6.Location = new System.Drawing.Point(15, 650);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Size = new System.Drawing.Size(786, 60);
             this.groupBox6.TabIndex = 5;
@@ -550,7 +550,7 @@
             // 
             this.buttBgeinCreateCode.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttBgeinCreateCode.Location = new System.Drawing.Point(699, 790);
+            this.buttBgeinCreateCode.Location = new System.Drawing.Point(699, 715);
             this.buttBgeinCreateCode.Name = "buttBgeinCreateCode";
             this.buttBgeinCreateCode.Size = new System.Drawing.Size(97, 31);
             this.buttBgeinCreateCode.TabIndex = 6;
@@ -563,7 +563,7 @@
             this.labSchedule.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.labSchedule.AutoSize = true;
-            this.labSchedule.Location = new System.Drawing.Point(629, 796);
+            this.labSchedule.Location = new System.Drawing.Point(629, 721);
             this.labSchedule.Name = "labSchedule";
             this.labSchedule.Size = new System.Drawing.Size(69, 19);
             this.labSchedule.TabIndex = 7;
@@ -574,7 +574,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(814, 828);
+            this.ClientSize = new System.Drawing.Size(814, 753);
             this.Controls.Add(this.buttBgeinCreateCode);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.pbSchedule);
