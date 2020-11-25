@@ -170,7 +170,7 @@ namespace LZ_EasyThreeLayersFrameworkCodeGenerateImplement.CreateCode.CreateMVC
             code.AppendLine("        /// <param name=\"pageItemCount\">一页显示多少数据</param>");
             code.AppendLine("        /// <param name=\"allItmeCount\">总共有多少条记录</param>");
             code.AppendLine("        /// <param name=\"sqlParameters\">所需SQL参数对象数组</param>");
-            code.AppendLine("        /// <returns>查询到的新闻数据模型对象集合</returns>");
+            code.AppendLine("        /// <returns>查询到的" + this._table.TableNote + "数据模型对象集合</returns>");
             code.AppendLine(
                 "        public List<" + this._table.ModelName + "> GetMinutePage(string where, string orderby, bool isDesc, int pageIndex, int pageItemCount, out int allItmeCount, params SqlParameter[] sqlParameters)");
             code.AppendLine("        {");
@@ -201,7 +201,7 @@ namespace LZ_EasyThreeLayersFrameworkCodeGenerateImplement.CreateCode.CreateMVC
             code.AppendLine("        /// <param name=\"pageIndex\">页面索引【从零开始】</param>");
             code.AppendLine("        /// <param name=\"pageItemCount\">一页显示多少数据</param>");
             code.AppendLine("        /// <param name=\"sqlParameters\">所需SQL参数对象数组</param>");
-            code.AppendLine("        /// <returns>查询到的新闻数据模型对象集合</returns>");
+            code.AppendLine("        /// <returns>查询到的" + this._table.TableNote + "数据模型对象集合</returns>");
             code.AppendLine(
                 "        public List<" + this._table.ModelName + "> GetMinutePage(string where, string orderby, bool isDesc, int pageIndex, int pageItemCount, params SqlParameter[] sqlParameters)");
             code.AppendLine("        {");
