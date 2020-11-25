@@ -98,7 +98,7 @@ namespace LZ_EasyThreeLayersFrameworkCodeGenerateImplement
                 }
                 //设置连接字符串
                 sqlJoinStr =
-                    "Data Source=" + this.cbServerName.Text + ";Network Library = DBMSSOCN;INITIAL CATALOG={0};User ID = " + this.txtRegisterName.Text + ";Password = " + this.txtPassword.Text + ";";
+                    "Data Source=" + this.cbServerName.Text + ";INITIAL CATALOG={0};User ID = " + this.txtRegisterName.Text + ";Password = " + this.txtPassword.Text + ";";
             }
             else
             {
