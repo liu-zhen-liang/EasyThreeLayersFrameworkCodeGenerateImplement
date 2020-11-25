@@ -21,7 +21,15 @@ namespace LZ_EasyThreeLayersFrameworkCodeGenerateImplement
         {
             //加载控件
             InitializeComponent();
+            InitControl();
         }
+
+        private void InitControl()
+        {
+            //初始化显示代码
+            this.pictureBox1.Image = global::LZ_EasyThreeLayersFrameworkCodeGenerateImplement.Properties.Resources.SQL_ServerLOGO;
+        }
+
         /// <summary>
         /// 窗体加载事件
         /// </summary>
