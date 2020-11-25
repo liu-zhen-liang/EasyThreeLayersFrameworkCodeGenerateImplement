@@ -431,6 +431,7 @@
             this.chLineName,
             this.chLineNote});
             this.lvLineNote.FullRowSelect = true;
+            this.lvLineNote.HideSelection = false;
             this.lvLineNote.Location = new System.Drawing.Point(3, 24);
             this.lvLineNote.Name = "lvLineNote";
             this.lvLineNote.Size = new System.Drawing.Size(382, 148);
@@ -473,6 +474,7 @@
             this.chTableName01,
             this.chTableNote});
             this.lvTableNote.FullRowSelect = true;
+            this.lvTableNote.HideSelection = false;
             this.lvTableNote.Location = new System.Drawing.Point(3, 24);
             this.lvTableNote.Name = "lvTableNote";
             this.lvTableNote.Size = new System.Drawing.Size(372, 148);
@@ -571,6 +573,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(814, 828);
             this.Controls.Add(this.buttBgeinCreateCode);
             this.Controls.Add(this.groupBox6);

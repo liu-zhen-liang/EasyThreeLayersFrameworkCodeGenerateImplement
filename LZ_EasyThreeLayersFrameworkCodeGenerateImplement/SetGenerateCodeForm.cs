@@ -551,18 +551,18 @@ namespace LZ_EasyThreeLayersFrameworkCodeGenerateImplement
         /// <param name="e"></param>
         private void SetGenerateCodeForm_SizeChanged(object sender, EventArgs e)
         {
-            //832, 873
-            //要将宽度固定在832，将高度锁定在不能小于873
-            //得到高度
-            int height = this.Height;
-            //判断当前高度是否小于873
-            if (height < 873)
-            {
-                //更改高度为873
-                height = 873;
-            }
-            //设置大小
-            this.Size = new Size(832, height);
+            ////832, 873
+            ////要将宽度固定在832，将高度锁定在不能小于873
+            ////得到高度
+            //int height = this.Height;
+            ////判断当前高度是否小于873
+            //if (height < 873)
+            //{
+            //    //更改高度为873
+            //    height = 873;
+            //}
+            ////设置大小
+            //this.Size = new Size(832, height);
         }
     }
 }
