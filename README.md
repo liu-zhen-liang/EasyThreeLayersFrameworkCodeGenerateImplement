@@ -1,25 +1,25 @@
 # 简单三层架构代码生成器
 ## 1.登录你的数据库服务器
-  ![Image text](/img-storage/231e81246ac5448d5e44e26a146cb43a.png)
+  ![Image text](https://github.com/liu-zhen-liang/EasyThreeLayersFrameworkCodeGenerateImplement/blob/main/img-storage/231e81246ac5448d5e44e26a146cb43a.png?raw=true)
 ## 2.编辑页面，可以在此页面进行配置生成的数据库、生成表，以及各个层生成得到后缀名称，表注释字段注释等等
-![在这里插入图片描述](/img-storage/2020112514032644.png)
+![在这里插入图片描述](https://github.com/liu-zhen-liang/EasyThreeLayersFrameworkCodeGenerateImplement/blob/main/img-storage/2020112514032644.png?raw=true)
 
 ## 3.选择需要生成的表
-![在这里插入图片描述](/img-storage/20201125134557965.png)
+![在这里插入图片描述](https://github.com/liu-zhen-liang/EasyThreeLayersFrameworkCodeGenerateImplement/blob/main/img-storage/20201125134557965.png?raw=true)
 ## 4.设置命名空间、数据访问类名称，去除表名称前缀，还有各个层的表名称后缀，去除各个表的列名称前缀
-![在这里插入图片描述](/img-storage/20201125135201103.png)
+![在这里插入图片描述](https://github.com/liu-zhen-liang/EasyThreeLayersFrameworkCodeGenerateImplement/blob/main/img-storage/20201125135201103.png?raw=true)
 ## 5.设置表注释，列字段注释
-![在这里插入图片描述](/img-storage/20201125135659471.png)
+![在这里插入图片描述](https://github.com/liu-zhen-liang/EasyThreeLayersFrameworkCodeGenerateImplement/blob/main/img-storage/20201125135659471.png?raw=true)
 ## 6.选择生成代码的位置
-![在这里插入图片描述](/img-storage/20201125135840438.png)
+![在这里插入图片描述](https://github.com/liu-zhen-liang/EasyThreeLayersFrameworkCodeGenerateImplement/blob/main/img-storage/20201125135840438.png?raw=true)
 ## 7.点击生成按钮生成代码
-![在这里插入图片描述](/img-storage/20201125140046518.png)
+![在这里插入图片描述](https://github.com/liu-zhen-liang/EasyThreeLayersFrameworkCodeGenerateImplement/blob/main/img-storage/20201125140046518.png?raw=true)
 ## 8.生成的代码文件
-![在这里插入图片描述](/img-storage/20201125140015303.png)
+![在这里插入图片描述](https://github.com/liu-zhen-liang/EasyThreeLayersFrameworkCodeGenerateImplement/blob/main/img-storage/20201125140015303.png?raw=true)
 ## 9.生成的表结构图
-![在这里插入图片描述](/img-storage/20201125140154825.png)
+![在这里插入图片描述](https://github.com/liu-zhen-liang/EasyThreeLayersFrameworkCodeGenerateImplement/blob/main/img-storage/20201125140154825.png?raw=true)
 ## 10.生成的Model代码
-![在这里插入图片描述](/img-storage/2020112514034537.png)
+![在这里插入图片描述](https://github.com/liu-zhen-liang/EasyThreeLayersFrameworkCodeGenerateImplement/blob/main/img-storage/2020112514034537.png?raw=true)
 
 ```csharp
 using System;
@@ -165,8 +165,8 @@ namespace Maticsoft.Model
 ```
 
 ## 11.生成的DAL层代码
-![在这里插入图片描述](/img-storage/20201125140525845.png)
-![在这里插入图片描述](/img-storage/20201125141857293.png)
+![在这里插入图片描述](https://github.com/liu-zhen-liang/EasyThreeLayersFrameworkCodeGenerateImplement/blob/main/img-storage/20201125140525845.png?raw=true)
+![在这里插入图片描述](https://github.com/liu-zhen-liang/EasyThreeLayersFrameworkCodeGenerateImplement/blob/main/img-storage/20201125141857293.png?raw=true)
 
 ```csharp
 using System;
@@ -582,7 +582,7 @@ namespace Maticsoft.DAL
 ```
 
 ## 12.生成的BLL层代码（生成的代码只是进行了简单的DAL层封装）
-![在这里插入图片描述](/img-storage/20201125140641153.png)
+![在这里插入图片描述](https://github.com/liu-zhen-liang/EasyThreeLayersFrameworkCodeGenerateImplement/blob/main/img-storage/20201125140641153.png?raw=true)
 
 ```csharp
 using System;
